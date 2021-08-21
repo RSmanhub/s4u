@@ -1,5 +1,5 @@
 .body {
-  background-image: ('images/morning_forest_1920.jpg') center no-repeat;
+  background-image: url("images/morning_forest_1920.jpg") center no-repeat;
   background-size: cover;
 
   padding: 30px 10px 0;
