@@ -1,0 +1,97 @@
+body {
+  background: url(/images/morning_forest_1920.jpg) center no-repeat;
+  background-size: cover;
+
+  padding: 30px 10px 0;
+  margin: 0;
+  display: flex;
+  flex-direction: column;
+
+  min-height: 95vh;
+}
+
+.content {
+  flex-grow: 1;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.logo {
+  box-shadow: 3px 3px 5px #3700ff17;
+}
+
+.name {
+  margin: 0 auto;
+  font-family: acme;
+  font-size: 35px;
+  text-transform: uppercase;
+  color: rgb(255, 255, 255);
+}
+.sub_logo {
+  margin: 0 auto;
+  font-family: caveat;
+  font-size: 12px;
+  color: #fff;
+  white-space: nowrap;
+}
+
+.audio {
+  margin-left: 5%;
+  width: 70%;
+  height: 45px;
+  opacity: 75%;
+}
+
+main {
+  margin-top: 25px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.time {
+  font-family: acme;
+  font-size: 58px;
+  color: #fff;
+}
+
+.date {
+  text-align: center;
+  margin: 10px;
+  font-family: caveat;
+  font-size: 26px;
+  color: #fff;
+}
+
+.border {
+  margin-top: 10px;
+  border-top: 2px solid #fff;
+  height: 50%;
+  width: 30%;
+}
+
+.weather {
+  margin-top: 15px;
+  background-color: #ffffff;
+  opacity: 80%;
+}
+
+footer {
+  background-color: #aaaaaa;
+  flex-shrink: 0;
+  padding: 3px;
+  align-items: center;
+  text-align: center;
+  font-family: tahoma;
+  font-size: 12px;
+  opacity: 70%;
+}
+
+.ver {
+  font-size: 9px;
+}
