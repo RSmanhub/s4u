@@ -82,16 +82,20 @@ main {
 }
 
 footer {
+  display: flex;
+
+  justify-content: space-between;
   background-color: #aaaaaa;
-  flex-shrink: 0;
   padding: 3px;
-  align-items: center;
-  text-align: center;
   font-family: tahoma;
   font-size: 12px;
   opacity: 70%;
 }
 
-.ver {
-  font-size: 9px;
+.ya-share2 {
+  margin-left: 3px;
+}
+
+.mail {
+  margin-right: 3px;
 }
