@@ -83,7 +83,7 @@ main {
 
 footer {
   display: flex;
-  justify-content: space-between;
+  justify-content: space-around;
   justify-content: center;
   align-items: center;
   background-color: #aaaaaa;
