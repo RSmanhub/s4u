@@ -83,8 +83,9 @@ main {
 
 footer {
   display: flex;
-
   justify-content: space-between;
+  justify-content: center;
+  align-items: center;
   background-color: #aaaaaa;
   padding: 3px;
   font-family: tahoma;
@@ -92,7 +93,9 @@ footer {
   opacity: 70%;
 }
 
-
+.ya-share2 {
+  margin-left: 3px;
+}
 
 .mail {
   margin-right: 3px;
